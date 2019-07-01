@@ -1,4 +1,6 @@
 #!/bin/bash
 
-echo "hello world"
-echo "goodbye world"
+echo "hello world";
+echo "goodbye world"   
+
+
