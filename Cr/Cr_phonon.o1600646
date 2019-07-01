@@ -1,0 +1,16 @@
+/scratch/far0068/Cr_1600646.dm2/
+/home/far0068/elastic/Cr
+mkdir: cannot create directory ‘relaxation’: File exists
+ln: failed to create symbolic link ‘./relaxation/BAND.CONF’: File exists
+ln: failed to create symbolic link ‘./relaxation/INCAR’: File exists
+ln: failed to create symbolic link ‘./relaxation/KPOINTS’: File exists
+ln: failed to create symbolic link ‘./relaxation/mesh.conf’: File exists
+ln: failed to create symbolic link ‘./relaxation/pdos.conf’: File exists
+ln: failed to create symbolic link ‘./relaxation/POSCAR’: File exists
+ln: failed to create symbolic link ‘./relaxation/POTCAR’: File exists
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: omitting directory ‘relaxation’
+cp: omitting directory ‘source_files’

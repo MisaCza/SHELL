@@ -1,0 +1,407 @@
+/scratch/far0068/Cr_1601285.dm2/
+/home/far0068/elastic/Cr
+mkdir: cannot create directory ‘elastic’: File exists
+mkdir: cannot create directory ‘POS_01_001.vasp’: File exists
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_001/’ is not a directory: No such file or directory
+cp: cannot create regular file ‘./POS_01_001/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_001/.’: No such file or directory
+/home/far0068/elastic/Cr/ELASTIC_GXP.sh: line 47: cd: POS_01_001.vasp: Not a directory
+ running on    4 total cores
+ distrk:  each k-point on    1 cores,    4 groups
+ distr:  one band on    1 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jan 03 2019 12:41:38) complex          
+  
+ POSCAR found type information on POSCAR  Cr
+ POSCAR found :  1 types and       2 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      You have enabled k-point parallelism (KPAR>1).                         |
+|      This developmental code was originally  written by Paul Kent at ORNL,  |
+|      and carefully double checked in Vienna.                                |
+|      GW as well as linear response parallelism added by Martijn Marsman     |
+|      and Georg Kresse.                                                      |
+|      Carefully verify results versus KPAR=1.                                |
+|      Report problems to Paul Kent and Vienna.                               |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ FFT: planning ...
+ WAVECAR not read
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.545021823031E+02    0.54502E+02   -0.36816E+03  1144   0.107E+03
+DAV:   2    -0.898139746816E+01   -0.63484E+02   -0.59267E+02  1154   0.245E+02
+DAV:   3    -0.118523404618E+02   -0.28709E+01   -0.27516E+01  1404   0.659E+01
+DAV:   4    -0.119269206134E+02   -0.74580E-01   -0.71346E-01  1352   0.948E+00
+DAV:   5    -0.119277019052E+02   -0.78129E-03   -0.75983E-03  1366   0.909E-01    0.411E+01
+DAV:   6    -0.109756160018E+02    0.95209E+00   -0.53237E-01  1308   0.149E+01    0.202E+01
+DAV:   7    -0.105620076544E+02    0.41361E+00   -0.32979E-01  1402   0.986E+00    0.188E+00
+DAV:   8    -0.105458501979E+02    0.16157E-01   -0.29863E-02  1132   0.357E+00    0.307E-01
+DAV:   9    -0.105461972316E+02   -0.34703E-03   -0.29324E-04  1630   0.243E-01    0.150E-01
+DAV:  10    -0.105457695872E+02    0.42764E-03   -0.51626E-05  1244   0.974E-02    0.464E-03
+DAV:  11    -0.105457719273E+02   -0.23400E-05   -0.99604E-07  1242   0.113E-02    0.224E-03
+DAV:  12    -0.105457709952E+02    0.93212E-06   -0.70550E-08  1300   0.229E-03    0.114E-04
+DAV:  13    -0.105457706861E+02    0.30903E-06   -0.17549E-09   616   0.595E-04    0.822E-05
+DAV:  14    -0.105457706434E+02    0.42705E-07   -0.42480E-10   590   0.241E-04    0.946E-05
+DAV:  15    -0.105457706077E+02    0.35699E-07   -0.17079E-10   580   0.232E-04    0.391E-05
+DAV:  16    -0.105457706202E+02   -0.12506E-07   -0.42201E-11   578   0.103E-04    0.239E-06
+DAV:  17    -0.105457706182E+02    0.20668E-08   -0.16134E-11   582   0.542E-05
+   1 F= -.10545771E+02 E0= -.10545771E+02  d E =-.105458E+02
+ curvature:   0.00 expect dE= 0.000E+00 dE for cont linesearch  0.000E+00
+ trial: gam= 0.00000 g(F)=  0.939E-65 g(S)=  0.000E+00 ort = 0.000E+00 (trialstep = 0.100E+01)
+ search vector abs. value=  0.100E-09
+ reached required accuracy - stopping structural energy minimisation
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_002/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_002/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_003/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_003/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_004/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_004/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_005/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_005/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_006/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_006/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_007/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_007/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_008/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_008/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_009/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_009/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_010/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_010/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_011/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_011/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_012/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_012/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_01_013/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_01_013/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_001/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_001/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_002/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_002/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_003/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_003/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_004/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_004/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_005/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_005/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_006/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_006/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_007/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_007/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_008/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_008/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_009/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_009/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_010/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_010/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_011/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_011/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_012/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_012/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_02_013/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_02_013/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_001/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_001/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_002/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_002/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_003/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_003/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_004/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_004/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_005/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_005/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_006/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_006/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_007/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_007/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_008/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_008/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_009/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_009/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_010/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_010/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_011/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_011/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_012/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_012/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory
+ln: target ‘/home/far0068/elastic/Cr/elastic/POS_03_013/’ is not a directory: No such file or directory
+cp: cannot stat ‘../source_files/INCAR’: No such file or directory
+ln: failed to create symbolic link ‘/home/far0068/elastic/Cr/elastic/POS_03_013/.’: No such file or directory
+sed: can't read ./INCAR: No such file or directory
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: cannot stat ‘OSZICAR’: No such file or directory

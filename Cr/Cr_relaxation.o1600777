@@ -1,0 +1,9 @@
+/scratch/far0068/Cr_1600777.dm2/
+/home/far0068/elastic/Cr
+mkdir: cannot create directory ‘relaxation’: File exists
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+ Error reading item 'VCAIMAGES' from file INCAR.
+cp: omitting directory ‘relaxation’
+cp: omitting directory ‘source_files’

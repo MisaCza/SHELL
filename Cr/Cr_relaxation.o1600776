@@ -1,0 +1,12 @@
+/scratch/far0068/Cr_1600776.dm2/
+/home/far0068/elastic/Cr
+mkdir: cannot create directory ‘relaxation’: File exists
+ running on    4 total cores
+ distrk:  each k-point on    1 cores,    4 groups
+ distr:  one band on    1 cores,    1 groups
+ using from now: INCAR     
+ vasp.5.4.4.18Apr17-6-g9f103f2a35 (build Jan 03 2019 12:41:38) complex          
+  
+ ERROR: there must be 1 or 3 items on line 2 of POSCAR
+cp: omitting directory ‘relaxation’
+cp: omitting directory ‘source_files’
