@@ -1,0 +1,45 @@
+#!/bin/bash
+
+
+#tha varible
+DIRS="let there be light"
+
+#calculate the number of collums
+Nmax=$(echo $DIRS | awk '{print NF}' | sort -nu | tail -n 1)
+
+#tha loop
+	#or: for N in $(seq 1 Nmax)
+for ((N=1;N<=Nmax;N=N+1))
+	do
+		#find the relevant string
+	workingwith=$(echo $DIRS | awk -v N=$N '{print $N}')
+		#make the directory
+	mkdir $workingwith
+		#goto directory
+	cd $workingwith
+		#create tha file
+	echo $workingwith > ${workingwith}.txt
+		#come back
+	cd ..
+done
+
+#list all
+ls -R
+#summon the great flood to purge all but Noah and his ark:
+for ((N=1;N<=Nmax;N=N+1))
+        do
+                #find the relevant string
+        workingwith=$(echo $DIRS | awk -v N=$N '{print $N}')
+		#Perform the Purge
+	rm -r $workingwith
+done
+
+
+#consider the circle of life complete.
+
+
+
+#shorter version
+for name in $DIRS; do
+	echo $name
+done
